@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/blogpost.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <title>Algozzz</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span>Algoguruzz</span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a> </li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search Article">
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="post-img">
+        <img src="../img/stack.jpg" alt="">
+    </div>
+    <div class="blog-post-content max-width-2 m-auto my-2">
+        <h1 class="font1">Tree</h1>
+        <div class="blogpost-meta">
+            <!-- <div class="author-info">
+                <div>Yatin</div>
+                <div>13 April | 5 min read</div>
+            </div> -->
+            <div class="social">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33"
+                        fill="#A8A8A8">
+                    </path>
+                </svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71"
+                        fill="#A8A8A8">
+
+                    </path>
+                </svg>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z"
+                        fill="#A8A8A8"></path>
+                </svg>
+
+            </div>
+        </div>
+        <p class="font1">A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges.</p>
+        <p class="font1">The tree is a nonlinear hierarchical data structure and comprises a collection of entities known as nodes. It connects each node in the tree data structure using "edges”, both directed and undirected.</p>
+        
+        <p class="font1"><b>Terms to remember</b></p>
+        <ul class="font1">
+            <li> <h4>Path</h4> Path refers to the sequence of nodes along the edges of a tree.</li>
+            <li> <h4>Root</h4> The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.</li>
+            <li> <h4>Parent</h4> Any node except the root node has one edge upward to a node called parent.</li>
+            <li> <h4>Child</h4> The node below a given node connected by its edge downward is called its child node.</li>
+            <li> <h4>Leaf</h4>The node which does not have any child node is called the leaf node.</li>
+            <li> <h4>Subtree</h4> Subtree represents the descendants of a node.</li>
+            <li> <h4>Visiting</h4> Visiting refers to checking the value of a node when control is on the node.</li>
+            <li> <h4>Traversing</h4> Traversing means passing through nodes in a specific order.</li>
+            <li> <h4>Levels</h4> Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.</li>
+            <li> <h4>keys</h4> Key represents a value of a node based on which a search operation is to be carried out for a node.</li>
+            <li> <h4>Degree</h4> In the tree data structure, the total number of children of a node is called the degree of the node.</li>
+
+        </ul>
+
+        <p class="font1"><b>Types of Trees:</b></p>
+        <ul class="font1">
+            <li>Binary Tree</li>
+            <li>Binary Search Tree</li>
+            <li>AVL Tree</li>
+            <li>B Tree</li>            
+        </ul>
+        <p class="font1"><b>Tree Traversal:</b></p>
+        <p class="font1">Traversal of the tree in data structures is a process of visiting each node and printing their value.</p>
+        <p class="font1">There exists three ways to do this:</p>
+        <ol class="font1">
+            <li>Pre-Order Traversal</li>
+            <p class="font1">In this Traversal, it visits the root node first, then the left subtree, and lastly right subtree.</p>
+            <p class="font1">Algorithm:</p>
+                <ul class="font1">
+                    <li>Visit the root node.</li>
+                    <li>Recursively cross the left subtree</li>
+                    <li>Recursively cross right subtree</li>
+
+                </ul>
+            <li>In-Order Traversal</li>
+            <p class="font1">In this Traversal, the left subtree is visited first, then the root lastly the right subtree.</p>
+            <p class="font1">Algorithm:</p>
+                <ul class="font1">
+                    <li>Recursively navigate the left subtree.</li>
+                    <li>Visit the root node</li>
+                    <li>Recursively navigate right subtree</li>
+                </ul>
+            <li>Post-Order Traversal:</li>
+            <p class="font1">It visits the left subtree first in post-order traversal, then the right subtree, and finally the root node.</p>
+            <p class="font1">Algorithm:</p>
+                <ul class="font1">
+                    <li>Recursively cross the left subtree.</li>
+                    <li>Visit the right node.</li>
+                    <li>Recursively navigate root.</li>
+                </ul>
+        </ol>
+    </div>
+        <br><br>
+        <div class="max-width-1 m-auto">
+            <hr>
+        </div>
+        <br>
+        <div class="row">
+            <div class="home-article more-post">
+            <!-- <p class="font1"></p> -->
+                <pre class="font1"><b>Tree implementation in C</b>
+                    // Tree traversal in C
+                    #include <stdio.h>
+                    #include <stdlib.h>
+                    struct node {
+                      int item;
+                      struct node* left;
+                      struct node* right;
+                    };
+                    // Inorder traversal
+                    void inorderTraversal(struct node* root) {
+                      if (root == NULL) return;
+                      inorderTraversal(root->left);
+                      printf("%d ->", root->item);
+                      inorderTraversal(root->right);
+                    }
+                    // preorderTraversal traversal
+                    void preorderTraversal(struct node* root) {
+                      if (root == NULL) return;
+                      printf("%d ->", root->item);
+                      preorderTraversal(root->left);
+                      preorderTraversal(root->right);
+                    }
+                    // postorderTraversal traversal
+                    void postorderTraversal(struct node* root) {
+                      if (root == NULL) return;
+                      postorderTraversal(root->left);
+                      postorderTraversal(root->right);
+                      printf("%d ->", root->item);
+                    }
+                    // Create a new Node
+                    struct node* createNode(value) {
+                      struct node* newNode = malloc(sizeof(struct node));
+                      newNode->item = value;
+                      newNode->left = NULL;
+                      newNode->right = NULL;
+                      return newNode;
+                    }
+                    // Insert on the left of the node
+                    struct node* insertLeft(struct node* root, int value) {
+                      root->left = createNode(value);
+                      return root->left;
+                    }
+                    // Insert on the right of the node
+                    struct node* insertRight(struct node* root, int value) {
+                      root->right = createNode(value);
+                      return root->right;
+                    }
+                    int main() {
+                      struct node* root = createNode(1);
+                      insertLeft(root, 12);
+                      insertRight(root, 9);
+                      insertLeft(root->left, 5);
+                      insertRight(root->left, 6);
+                      printf("Inorder traversal \n");
+                      inorderTraversal(root);
+                      printf("\nPreorder traversal \n");
+                      preorderTraversal(root);
+                      printf("\nPostorder traversal \n");
+                      postorderTraversal(root);
+                    }
+
+                </pre>
+            </div>
+
+        <!-- <p class="font1"><b></b></p> -->
+        <pre class="font1"><b>Tree implementation in C++</b>
+                // Tree traversal in C++
+                #include <iostream>
+                using namespace std;
+                struct Node {
+                  int data;
+                  struct Node *left, *right;
+                  Node(int data) {
+                    this->data = data;
+                    left = right = NULL;
+                  }
+                };
+                // Preorder traversal
+                void preorderTraversal(struct Node* node) {
+                  if (node == NULL)
+                    return;
+                  cout << node->data << "->";
+                  preorderTraversal(node->left);
+                  preorderTraversal(node->right);
+                }
+                // Postorder traversal
+                void postorderTraversal(struct Node* node) {
+                  if (node == NULL)
+                    return;
+                  postorderTraversal(node->left);
+                  postorderTraversal(node->right);
+                  cout << node->data << "->";
+                }
+                // Inorder traversal
+                void inorderTraversal(struct Node* node) {
+                  if (node == NULL)
+                    return;
+                  inorderTraversal(node->left);
+                  cout << node->data << "->";
+                  inorderTraversal(node->right);
+                }
+                int main() {
+                  struct Node* root = new Node(1);
+                  root->left = new Node(12);
+                  root->right = new Node(9);
+                  root->left->left = new Node(5);
+                  root->left->right = new Node(6);
+                  cout << "Inorder traversal ";
+                  inorderTraversal(root);
+                  cout << "\nPreorder traversal ";
+                  preorderTraversal(root);
+                  cout << "\nPostorder traversal ";
+                  postorderTraversal(root);
+                }
+
+            </pre>
+        </div>
+
+
+    
+    <!-- <div class="max-width-1 m-auto">
+            <hr>
+        </div> -->
+
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-articles max-width-1 m-auto font1">
+        <h2>People who read this also</h2><br>
+        <div class="row">
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="../img/Queue.png" alt="algorithm">
+                </div>
+                <div class="home-article-content font1 center">
+                    <a href="/queue.html">
+                        <h3>Queue</h3>
+                    </a>
+                    <p>Queue is an abstract data structure somewhat similar to stack.
+                        It is a homogeneous collection of elements in which new elements are added(Enqueue) at one end
+                        and the existing elements are deleted from the other end (Dequeue) based on First In First OUT
+                        (FIFO) principle.
+                    </p>
+                    <!-- <div>Author Name</div>
+                    <span>13 April || 2 min read </span>-->
+                </div>
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-img"  style="margin-right: 10px;">
+                    <img src="../img/linked-list.png" alt="algorithm">
+                </div>
+                <div class="home-article-content font1 center">
+                    <a href="/linkedlist.html">
+                        <h3>Linked list</h3>
+                    </a><br>
+                    <p>A linked list is a sequence of data structures, which are connected together via links.
+                        Linked List is a sequence of links which contains items.
+                        Each link contains a connection to another link.
+                    </p>
+                    <!-- <div>Author Name</div>
+                    <span>13 April || 2 min read </span> -->
+                </div>
+            </div>
+            <div class="home-article more-post">
+                <div class="home-article-img">
+                    <img src="../img/tree.jpg" alt="algorithm">
+                </div>
+                <div class="home-article-content font1 center   ">
+                    <a href="/trees.html">
+                        <h3>Trees</h3>
+                    </a>
+                    <p>A tree is a hierarchical data structure defined as a collection of nodes.
+                        Nodes represent value and nodes are connected by edges.
+                    </p>
+                    <!-- <div>Author Name</div>
+                    <span>13 April || 2 min read </span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; Algoguruzz.com</p>
+        <a href="https://www.vecteezy.com/free-vector/coding">Coding Vectors by Vecteezy</a>
+    </div>
+</body>
+
+</html>

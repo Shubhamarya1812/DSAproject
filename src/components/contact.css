@@ -1,0 +1,24 @@
+.contact-content {
+    height: 350px;
+    height: 80vh;
+    /* background-color: rgb(247, 215, 215); */
+    /* display: flex; */
+    margin-top: 50px;
+    padding: 10px;
+    /* background-image: url(../img/machine_learning_03__Converted__generated.jpg); */
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contact-content::after {
+    content: "";
+    top: 0px;
+    /* background-image: url(../img/machine_learning_03__Converted__generated.jpg); */
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    
+    z-index: -1;
+}
